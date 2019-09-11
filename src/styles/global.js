@@ -15,12 +15,17 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
+    font-family: Roboto !important;
     height: 100%;
+  }
+
+  body {
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button {
-    font: 14px, Roboto, sans-serif;
+    font-family: Roboto, sans-serif !important;
+    font-size: 14px
   }
 
   a {
