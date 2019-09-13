@@ -5,7 +5,7 @@ import { Form, Input } from '@rocketseat/unform';
 
 import { updateProfileRequest } from '~/store/modules/user/actions';
 
-import AvatarInput from './AvatarProfile';
+import AvatarInput from './AvatarInput';
 
 import { Container } from './styles';
 
